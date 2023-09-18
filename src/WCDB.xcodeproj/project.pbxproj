@@ -11270,6 +11270,7 @@
 			baseConfigurationReference = 234F0370227A9E3D00DD65A2 /* WCDB.xcconfig */;
 			buildSettings = {
 				MODULEMAP_FILE = "$(SRCROOT)/support/WCDBSwift.modulemap";
+				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
 			};
 			name = Debug;
 		};
@@ -11278,6 +11279,7 @@
 			baseConfigurationReference = 234F0370227A9E3D00DD65A2 /* WCDB.xcconfig */;
 			buildSettings = {
 				MODULEMAP_FILE = "$(SRCROOT)/support/WCDBSwift.modulemap";
+				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
 			};
 			name = Release;
 		};
